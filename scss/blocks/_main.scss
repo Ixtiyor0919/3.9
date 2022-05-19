@@ -8,7 +8,7 @@
     }
 }
 .login{
-    width: 100%;
+    width: 60%;
     height: 100vh;
     background: #Ecf0f3;
     .form {
@@ -69,5 +69,8 @@
     .login {
         height: 100vh;
         padding-bottom: 10%;
+        .form {
+            width: 100% !important;
+        }
     }
 }
